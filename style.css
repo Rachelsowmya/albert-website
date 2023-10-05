@@ -1,0 +1,198 @@
+body {
+    font-family: Times, Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url('https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956981.jpg&fm=jpg'); 
+    background-size: cover; 
+    height: 20px; 
+    color: #fff; 
+    padding-bottom: 50px; 
+}
+h1 {
+    font-size: 36px;
+    text-align: center; 
+
+}
+
+
+header {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    height: 25px;
+text-align: center;
+margin-top: 10px;
+}
+header a {
+    color: #fff;
+    justify-content: center;
+    margin-left:50px;
+
+}
+
+.container { 
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 90rem;
+    margin: 1px 1px;
+    padding: 1px 1rem;
+    color: white;
+    align-items: center;
+    background-color: #AAABB8;
+}
+.container img{
+    height: 80%;
+max-width: 100%;
+}
+
+
+  
+.newt{
+    display:inline-block;
+    vertical-align: left;
+    padding: 100px;
+}
+h2{
+    text-align: center;
+    color: #464866;
+    font-size:  80px;
+    margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+p {
+    font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.newblock {
+    background-color:black;
+    display: flex;
+        column-gap: 20px; 
+        align-items: flex-start; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+}
+.block1{
+    flex: 1;
+    padding: 20px;
+    background-color: black;
+}
+.block2{
+    flex: 2;
+    grid-row: 4/ -1;
+    grid-column: 3 / 2;
+    border: 1px solid white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.block2 h2{
+    text-align: center;
+    color: white;
+    font-size:  80px;
+    margin-bottom: 1rem;
+    margin-left:20px;
+    margin-right:20px;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+
+.blog {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.blog img {
+    max-width: 100%; 
+    height: auto;
+}
+.blog h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.con {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.gallery {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.gallery h2 {
+    text-align: center;
+    color: white;
+    font-size:  80px;
+    margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.2;    
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.block-3 {
+    display: flex; 
+    justify-content: space-between; 
+}
+.Achievements,
+.hobbies {
+    flex: 1; 
+    padding: 20px; 
+    border: 1px; 
+    margin: 5px;
+    text-align: center;
+    background-color: #aaaBB8;
+}
+
+
+.Achievement,
+.hobby {
+    margin-bottom: 20px; 
+}
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info img {
+    width: 30px; 
+    height: auto; 
+    margin: 10px;
+}
+
+.contact-info a:hover img {
+    filter: grayscale(100%); 
+}
+@media screen and (max-width: 760px) {
+    .container img{
+        width: 100%;
+      
+    }
+  }
